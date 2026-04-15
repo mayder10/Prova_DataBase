@@ -3,7 +3,7 @@
 Este desafio simula um cenário real onde você deverá transformar dados brutos e desorganizados em um sistema de gestão acadêmica profissional, seguro e escalável.
 
 ## O Desafio
-O objetivo deste projeto é projetar e implementar o núcleo de um sistema universitário. Você partirá de uma lista de dados brutos (planilha legada) e deverá chegar a um banco de dados relacional totalmente normalizado, organizado em esquemas e funcional.
+O objetivo deste projeto é projetar e implementar o núcleo de um sistema universitário. Você partirá de uma lista de dados brutos em planilha e deverá chegar a um banco de dados relacional totalmente normalizado, organizado em esquemas e funcional.
 
 ---
 
@@ -15,9 +15,7 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 * **Organização:** Por que em um ambiente profissional de Engenharia de Dados é recomendado o uso de **Schemas** (ex: `academico`, `seguranca`) em vez de criar todas as tabelas no esquema padrão `public`?
 
 ### 2. Projeto e Normalização
-**Tarefa:** Aplique as regras de **1NF, 2NF e 3NF** sobre a tabela denormalizada abaixo.
-
-`PLANILHA_LEGADA(ID_Matricula, Nome_Usuario, Email_Usuario, Endereco_Usuario, Cod_Servico_Academico, Nome_Disciplina, Carga_H, Matricula_Operador_Pedagogico, Nome_Docente, Data_Ingresso, Score_Final, Ciclo_Calendario)`
+**Tarefa:** Aplique as regras de **1NF, 2NF e 3NF** sobre a planilha legada disponível em [`/dados/PLANILHA_LEGADA.xlsx`](./dados/PLANILHA_LEGADA.xlsx).
 
 **Entrega desta fase:**
 - Imagem do **DER (Diagrama Entidade-Relacionamento)** na pasta `/docs`.
@@ -31,7 +29,7 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 * **Segurança (DCL):** - Criar o perfil `professor_role`: permissão de `UPDATE` apenas na coluna de notas da tabela correspondente.
     - Criar o perfil `coordenador_role`: acesso total aos schemas criados.
     - **Privacidade:** Garanta que o `professor_role` não tenha acesso à coluna de e-mail dos usuários.
-* **População de Dados (DML):** Insira dados suficientes para que todas as queries do Item 4 retornem resultados (mínimo de 5 alunos, 3 disciplinas e 3 professores).
+* **População de Dados (DML):** Insira no banco os dados fornecidos na planilha legada [`/dados/PLANILHA_LEGADA.xlsx`](./dados/PLANILHA_LEGADA.xlsx), garantindo que a carga permita a execução de todas as queries do Item 4.
 
 ### 4. Consultas e Relatórios (DML)
 **Tarefa:** Escreva queries SQL para atender às seguintes demandas:
@@ -46,7 +44,7 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 
 ---
 
-## Instruções de Entrega
+## ⚠️ Instruções de Entrega
 
 1. Faça um **Fork** deste repositório para a sua conta GitHub.
 1. **Método:** Faça um **Fork** deste repositório para sua conta GitHub.
@@ -57,9 +55,9 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 4. **Identificação Obrigatória:** O título do Pull Request **deve** seguir o padrão:
    > **Nome Completo - [Seu RA]**
 5. **Link Forms:** Envie o link da sua Pull Request no link: https://forms.gle/MapD3gBWkSrgPiaL9
-6. **Horário Limite:** A entrega (Push e Pull Request) deve ocorrer até o horário estipulado pelo professor.
+6. **Horário Limite:** A entrega (Push e Pull Request) deve ocorrer até o horário estipulado por mim.
 7. **Penalidade Máxima:** Entregas ou modificações após o horário resultarão em **nota ZERO (0,0)**. O timestamp do GitHub é a única referência válida.
-8. **Execução:** O script SQL será executado pelo professor. Se o script de `INSERT` falhar ou as tabelas estiverem vazias, a prova não será avaliada.
+8. **Execução:** O script SQL será executado por mim. Se o script falhar ou as tabelas estiverem vazias, será descontado ponto do erro.
 ---
 
 **Penalidades:** 
@@ -70,20 +68,21 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 
 ## ⚠️ Regras Cruciais de Entrega
 
-* **Horário Limite:** A entrega deve ser realizada via `push` para o seu repositório remoto até o horário estipulado pelo professor.
-* **Data de Modificação:** O GitHub registra o horário exato de cada `commit` e `push`. 
+* **Horário Limite:** A entrega deve ser realizada até o horário estipulado por mim.
+* **Data de Modificação:** O GitHub registra o horário exato de cada Ação. 
 * **Penalidade Máxima:** Entregas ou modificações no repositório realizadas **após o horário estipulado resultarão em nota ZERO (0,0)**, sem exceções. 
-* **Execução:** O script SQL será executado por mim. Se o script de `INSERT` falhar ou as tabelas estiverem vazias, a prova não será avaliada.
 
 ---
 
 ## Critérios de Avaliação (Total: 10 Pontos)
 
-| Item | Critério | Pontuação |
-| :--- | :--- | :--- |
-| **Arquitetura** | Justificativa técnica coerente sobre SGBD e Schemas. | 1.0 |
-| **Modelagem** | Aplicação correta das FN (1NF, 2NF, 3NF) e qualidade do DER. | 3.0 |
-| **Scripts DDL/DML** | Criação de tabelas, PK/FK, Soft Delete e população de dados. | 1.5 |
-| **Segurança** | Implementação de Roles e restrição de privacidade por coluna (DCL). | 1.0 |
-| **Consultas** | Precisão técnica nas 4 queries DML (Joins, Agregações, Subqueries). | 2.5 |
-| **Teoria** | Explicação correta sobre Concorrência e propriedades ACID. | 1.0 |
+|---------------------|---------------------------------------------------------------------|-----------|
+| Item                | Critério                                                            | Pontuação |
+|---------------------|---------------------------------------------------------------------|-----------|
+| **Arquitetura**     | Justificativa técnica coerente sobre SGBD e Schemas.                | 1.0       |
+| **Modelagem**       | Aplicação correta das FN (1NF, 2NF, 3NF) e qualidade do DER.        | 3.0       |
+| **Scripts DDL/DML** | Criação de tabelas, PK/FK, Soft Delete e população de dados.        | 1.5       |
+| **Segurança**       | Implementação de Roles e restrição de privacidade por coluna (DCL). | 1.0       |
+| **Consultas**       | Precisão técnica nas 4 queries DML (Joins, Agregações, Subqueries). | 2.5       |
+| **Teoria**          | Explicação correta sobre Concorrência e propriedades ACID.          | 1.0       |
+|---------------------|---------------------------------------------------------------------|-----------|

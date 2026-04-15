@@ -1,0 +1,25 @@
+ID_Matricula,Nome_Usuario,Email_Usuario,Endereco_Usuario,Cod_Servico_Academico,Nome_Disciplina,Carga_H,Matricula_Operador_Pedagogico,Nome_Docente,Data_Ingresso,Score_Final,Ciclo_Calendario
+2026001,Ana Beatriz Lima,ana.lima@aluno.edu.br,Braganca Paulista/SP,ADS101,Banco de Dados,80,OP9001,Prof. Carlos Mendes,2026-01-20,9.1,2026/1
+2026001,Ana Beatriz Lima,ana.lima@aluno.edu.br,Braganca Paulista/SP,ADS102,Engenharia de Software,80,OP9001,Profa. Juliana Castro,2026-01-20,8.4,2026/1
+2026001,Ana Beatriz Lima,ana.lima@aluno.edu.br,Braganca Paulista/SP,ADS105,Sistemas Operacionais,60,OP9001,Prof. Eduardo Pires,2026-01-20,8.9,2026/1
+2026002,Bruno Henrique Souza,bruno.souza@aluno.edu.br,Atibaia/SP,ADS101,Banco de Dados,80,OP9002,Prof. Carlos Mendes,2026-01-21,7.3,2026/1
+2026002,Bruno Henrique Souza,bruno.souza@aluno.edu.br,Atibaia/SP,ADS103,Algoritmos,60,OP9002,Prof. Renato Alves,2026-01-21,6.8,2026/1
+2026002,Bruno Henrique Souza,bruno.souza@aluno.edu.br,Atibaia/SP,ADS104,Redes de Computadores,60,OP9002,Profa. Marina Lopes,2026-01-21,7.0,2026/1
+2026003,Camila Ferreira,camila.ferreira@aluno.edu.br,Jundiai/SP,ADS101,Banco de Dados,80,OP9001,Prof. Carlos Mendes,2026-01-22,5.9,2026/1
+2026003,Camila Ferreira,camila.ferreira@aluno.edu.br,Jundiai/SP,ADS102,Engenharia de Software,80,OP9001,Profa. Juliana Castro,2026-01-22,7.5,2026/1
+2026003,Camila Ferreira,camila.ferreira@aluno.edu.br,Jundiai/SP,ADS106,Estruturas de Dados,80,OP9001,Prof. Ricardo Faria,2026-01-22,6.1,2026/1
+2026004,Diego Martins,diego.martins@aluno.edu.br,Campinas/SP,ADS103,Algoritmos,60,OP9003,Prof. Renato Alves,2026-01-23,4.7,2026/1
+2026004,Diego Martins,diego.martins@aluno.edu.br,Campinas/SP,ADS104,Redes de Computadores,60,OP9003,Profa. Marina Lopes,2026-01-23,6.2,2026/1
+2026004,Diego Martins,diego.martins@aluno.edu.br,Campinas/SP,ADS105,Sistemas Operacionais,60,OP9003,Prof. Eduardo Pires,2026-01-23,5.8,2026/1
+2026005,Eduarda Nunes,eduarda.nunes@aluno.edu.br,Itatiba/SP,ADS102,Engenharia de Software,80,OP9002,Profa. Juliana Castro,2026-01-24,9.5,2026/1
+2026005,Eduarda Nunes,eduarda.nunes@aluno.edu.br,Itatiba/SP,ADS104,Redes de Computadores,60,OP9002,Profa. Marina Lopes,2026-01-24,8.1,2026/1
+2026005,Eduarda Nunes,eduarda.nunes@aluno.edu.br,Itatiba/SP,ADS106,Estruturas de Dados,80,OP9002,Prof. Ricardo Faria,2026-01-24,8.7,2026/1
+2026006,Felipe Araujo,felipe.araujo@aluno.edu.br,Louveira/SP,ADS101,Banco de Dados,80,OP9004,Prof. Carlos Mendes,2026-01-25,6.4,2026/1
+2026006,Felipe Araujo,felipe.araujo@aluno.edu.br,Louveira/SP,ADS103,Algoritmos,60,OP9004,Prof. Renato Alves,2026-01-25,5.6,2026/1
+2026006,Felipe Araujo,felipe.araujo@aluno.edu.br,Louveira/SP,ADS105,Sistemas Operacionais,60,OP9004,Prof. Eduardo Pires,2026-01-25,6.9,2026/1
+2025010,Gabriela Torres,gabriela.torres@aluno.edu.br,Nazare Paulista/SP,ADS101,Banco de Dados,80,OP8999,Prof. Carlos Mendes,2025-08-05,6.4,2025/2
+2025010,Gabriela Torres,gabriela.torres@aluno.edu.br,Nazare Paulista/SP,ADS102,Engenharia de Software,80,OP8999,Profa. Juliana Castro,2025-08-05,7.1,2025/2
+2025011,Helena Rocha,helena.rocha@aluno.edu.br,Piracaia/SP,ADS103,Algoritmos,60,OP8999,Prof. Renato Alves,2025-08-06,8.8,2025/2
+2025011,Helena Rocha,helena.rocha@aluno.edu.br,Piracaia/SP,ADS104,Redes de Computadores,60,OP8999,Profa. Marina Lopes,2025-08-06,7.9,2025/2
+2025012,Igor Santana,igor.santana@aluno.edu.br,Jarinu/SP,ADS105,Sistemas Operacionais,60,OP9000,Prof. Eduardo Pires,2025-08-07,5.5,2025/2
+2025012,Igor Santana,igor.santana@aluno.edu.br,Jarinu/SP,ADS106,Estruturas de Dados,80,OP9000,Prof. Ricardo Faria,2025-08-07,6.3,2025/2
