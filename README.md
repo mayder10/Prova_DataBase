@@ -76,7 +76,6 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 
 ## Critérios de Avaliação (Total: 10 Pontos)
 
-|---------------------|---------------------------------------------------------------------|-----------|
 | Item                | Critério                                                            | Pontuação |
 |---------------------|---------------------------------------------------------------------|-----------|
 | **Arquitetura**     | Justificativa técnica coerente sobre SGBD e Schemas.                | 1.0       |
@@ -85,4 +84,3 @@ O objetivo deste projeto é projetar e implementar o núcleo de um sistema unive
 | **Segurança**       | Implementação de Roles e restrição de privacidade por coluna (DCL). | 1.0       |
 | **Consultas**       | Precisão técnica nas 4 queries DML (Joins, Agregações, Subqueries). | 2.5       |
 | **Teoria**          | Explicação correta sobre Concorrência e propriedades ACID.          | 1.0       |
-|---------------------|---------------------------------------------------------------------|-----------|
